@@ -1,6 +1,6 @@
 package ObjectClosePkg is
    -- Definerer status for hindringer
-   type Obstacle_Status is (No_Obstacle, Obstacle_Right, Obstacle_Left); --Obstacle_Both kan legges til, men skapte kluss
+   type Obstacle_Status is (No_Obstacle, Obstacle_Right, Obstacle_Left);
 
    -- Beskyttet objekt for å holde Too_Close-status
    protected ObjectClose is
